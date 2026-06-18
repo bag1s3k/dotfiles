@@ -1,0 +1,24 @@
+[user]
+	name = bag1s3k
+	email = jetam.mravenec@gmail.com
+[submodule]
+	recurse = true
+[push]
+	recurseSubmodules = on-demand
+[core]
+	preloadindex = true
+	autocrlf = true
+    editor = vim
+[url "git@github.com:bag1s3k/"]
+	insteadOf = "bg:"
+[url "git@github.com:"]
+	insteadOf = "gh:"
+[init]
+	defaultBranch = main
+[status]
+	branch = true
+	showStash = true
+	showUntrackedFiles = all
+[diff]
+	context = 3
+	renames = copies

@@ -1,0 +1,153 @@
+{
+  "layer": "top",
+  "margin-left": 3,
+  "margin-top": 10,
+  "margin-right": 3,
+  "margin-bottom": 5,
+  "modules-left": [
+      "hyprland/workspaces",
+      "tray",
+      "wlr/taskbar"
+  ],
+  "modules-center": ["clock"],
+  "modules-right": [
+    "custom/asus-profile",
+    "backlight",
+    "hyprland/submap",
+    "group/volume",
+    "bluetooth",
+    "network",
+    "battery",
+    "cpu",
+    "memory"
+  ],
+  "tray": {
+    "spacing": 10
+  },
+  "hyprland/window": {
+    "max-length": 50
+  },
+  "battery": {
+    "interval": 60,
+    "format": "{icon}  {capacity}%",
+    "format-icons": {
+      "default": [
+        "󰂎",
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+      ],
+      "charging": [
+        "󰢟",
+        "󰢜",
+        "󰂆",
+        "󰂇",
+        "󰂈",
+        "󰢝",
+        "󰂉",
+        "󰢞",
+        "󰂊",
+        "󰂋",
+        "󰂅"
+      ]
+    }
+  },
+  "bluetooth": {
+    "format": "",
+    "format-disabled": "󰂲", // an empty format will hide the module
+    "format-connected": "󰂱",
+    "tooltip-format": "No devices",
+    "tooltip-format-connected": "{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias} {device_battery_percentage}%",
+    "on-click": "exec flatpak run io.github.kaii_lb.Overskride"
+  },
+  "cpu": {
+    "interval": 10,
+    "format": " {}%",
+    "max-length": 10,
+    "on-click": "exec ghostty --title=btop -e btop"
+  },
+  "memory": {
+    "interval": 60,
+    "format": "   {percentage}%",
+    "tooltip-format": "{used:0.1f}G/{total:0.1f}G used",
+    "on-click": "exec ghostty --title=htop -e htop"
+  },
+  "network": {
+    "format": "",
+    "format-wifi": " {essid}",
+    "format-ethernet": "󱘖",
+    "format-disconnected": "󰤭", //An empty format will hide the module.
+    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname}  {ipaddr}/{cidr}  ",
+    "tooltip-format-disconnected": "󰖪",
+    "max-length": 50,
+    "on-click": "exec nmrs"
+  },
+  "clock": {
+    "format": "  {:%H:%M | %d.%m.}",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "format": {
+        "today": "<span color='#D7A466'><b>{}</b></span>"
+      },
+      "iso8601": true
+    }
+  },
+  "pulseaudio": {
+    "format": "{icon}",
+    "format-muted": "󰝟",
+    "format-icons": {
+      "default": ["", ""]
+    },
+    "scroll-step": 1,
+    "ignored-sinks": ["Easy Effects Sink"],
+    "on-click": "pavucontrol"
+  },
+  "pulseaudio/slider": {
+    "min": 0,
+    "max": 100,
+    "orientation": "horizontal"
+  },
+  "group/volume": {
+    "orientation": "horizontal",
+    "modules": ["pulseaudio", "pulseaudio/slider"]
+  },
+  "wlr/taskbar": {
+    "format": " {icon} ",
+    "icon-size": 20,
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-right": "close"
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "󰛨 {percent}%",
+    "tooltip": false
+  },
+  "power-profiles-daemon": {
+  "format": "{icon}",
+  "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+  "tooltip": true,
+  "format-icons": {
+    "default": "",
+    "performance": "",
+    "balanced": "",
+    "power-saver": ""
+  }
+  },
+  "custom/asus-profile": {
+    "exec": "asusctl profile get | awk '/Active profile/ {print $3}' | sed 's/Quiet/󰌪/; s/Balanced/󰾆/; s/Performance/󰓅/'",
+    "interval": 5,
+    "format": "{}",
+    "tooltip": false
+  }
+}

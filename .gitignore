@@ -1,0 +1,16 @@
+**/.vscode/
+**/.idea/
+
+*.bak
+*.swp
+
+
+vim/.vim/*
+!vim/.vim/autoload/
+
+fish/.config/fish/*
+!fish/.config/fish/config.fish
+
+gtk-3.0/.config/gtk-3.0/bookmarks
+gtk-4.0/.config/gtk-4.0/*
+!gtk-4.0/.config/gtk-4.0/settings.ini
