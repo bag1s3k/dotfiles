@@ -3,12 +3,10 @@
 * {
 	all: unset;
 	
-	/* Globální proměnné stylu */
 	--border-radius: 16px;
 	--border-radius-s: 8px;
 	--border-radius-xl: 18px;
 	
-	/* Shadows: nastavením na none zakážete */
 	--shadow: 2px 4px 10px rgba(0,0,0,0.15);
 
 	font-family: "JetBrainsMonoNL Nerd Font Propo";
@@ -57,12 +55,12 @@
 .notification-content .time {
 	padding: 2px;
 	font-size: 0.95rem;
-	font-weight: 800; /* Tučné písmo pro čas notifikace */
+	font-weight: 800;
 }
 
 .notification-content .summary {
 	font-size: 1rem;
-	font-weight: 800; /* Tučné písmo pro název notifikace */
+	font-weight: 800;
 	padding: 2px 0;
 	margin-bottom: 2px;
 }
@@ -118,7 +116,6 @@
 	box-shadow: var(--shadow);
 }
 
-/* Odebrat tlačítka pro zavření v notifikačním centru */
 .control-center .notification-background .close-button,
 .notification-group-close-button {
 	opacity: 0;
@@ -128,7 +125,6 @@
 	transition: 200ms;
 }
 
-/* Notifikace s extra okrajem v rozšířené skupině */
 .notification-group:not(.collapsed) {
 	margin: 8px;
 }
@@ -203,20 +199,17 @@
 	background: @background;
 }
 
-/* Kontejner ovládacích tlačítek */
 .mpris-overlay > box:last-child {
 	border-radius: var(--border-radius-xl);
 	padding: 0 5px;
 	background: alpha(@hover, .6);
 }
 
-/* Ovládací tlačítka */
 .widget-mpris-player button {
 	padding: 5px;
 	margin: 0 2.5px;
 }
 
-/* Hover pro ovládací tlačítka */
 .widget-mpris-player button:hover {
 	border-radius: var(--border-radius-s);
 	background: @hover;
@@ -259,12 +252,10 @@
 	margin: 0;
 }
 
-/* Změnit barvu zástupného symbolu, když nejsou žádné notifikace */
 .control-center-list-placeholder {
 	color: @text;
 }
 
-/* Vyhnout se 'otravnému' pozadí */
 .blank-window {  
 	background: transparent;  
 }

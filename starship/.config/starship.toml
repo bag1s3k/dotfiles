@@ -29,7 +29,6 @@ $cmd_duration\
 $line_break\
 $character"""
 
-# Aktivována naše nová, kontrastnější verze Frappe
 palette = 'catppuccin_frappe_contrasted'
 
 [os]
@@ -173,24 +172,21 @@ disabled = false
 show_notifications = true
 min_time_to_notify = 45000
 
-# ----------------------------------------------------
-# TVOJE NOVÁ VYLADĚNÁ PALETA (Kontrastní Frappe)
-# ----------------------------------------------------
 [palettes.catppuccin_frappe_contrasted]
 rosewater = "#f2d5cf"
 flamingo = "#eebebe"
 pink = "#f4b8e4"
 mauve = "#ca9ee6"
-red = "#ed6b6e"      # Živější červená
+red = "#ed6b6e"
 maroon = "#ea999c"
-peach = "#f28b5a"    # Živější broskvová/oranžová
-yellow = "#eabd73"   # Sytější žlutá
-green = "#9ad175"    # Výraznější zelená
+peach = "#f28b5a"
+yellow = "#eabd73"
+green = "#9ad175"
 teal = "#81c8be"
 sky = "#99d1db"
-sapphire = "#68b6db" # Ostřejší safírová
+sapphire = "#68b6db"
 blue = "#8caaee"
-lavender = "#a2a4f5" # Čistší levandulová
+lavender = "#a2a4f5"
 text = "#c6d0f5"
 subtext1 = "#b5bfe2"
 subtext0 = "#a5adce"
@@ -202,11 +198,8 @@ surface1 = "#51576d"
 surface0 = "#414559"
 base = "#303446"
 mantle = "#292c3c"
-crust = "#151720"    # Mnohem tmavší crust pro dokonalý kontrast textu!
+crust = "#151720"
 
-# ----------------------------------------------------
-# Původní palety (pro případ, že bys je chtěl někdy přepnout)
-# ----------------------------------------------------
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
 flamingo = "#f2cdcd"
