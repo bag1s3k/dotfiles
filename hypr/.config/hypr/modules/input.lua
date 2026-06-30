@@ -7,7 +7,7 @@ hl.config({
         kb_layout  = "cz",
         kb_variant = "",
         kb_model   = "",
-        kb_options = "",
+        kb_options = "altwin:swap_lalt_lwin,lv3:ralt_switch",
         kb_rules   = "",
 
         follow_mouse = 1,
