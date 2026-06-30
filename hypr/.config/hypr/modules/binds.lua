@@ -27,6 +27,7 @@ hl.bind(mainMod .. " + SHIFT + M", hl.dsp.exec_cmd("hyprlock -c ~/.config/hypr/h
 --hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
 hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("hyprshot -m window"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprshot -m region"))
+hl.bind(mainMod .. " + a", hl.dsp.layout("togglesplit"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
