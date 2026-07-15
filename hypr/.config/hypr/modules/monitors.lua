@@ -35,6 +35,24 @@ hl.monitor({
 	transform = 3
 })
 
+hl.workspace_rule({
+    workspace = "1",
+    monitor = "desc:GIGA-BYTE TECHNOLOGY CO. LTD. M27QA FA3T01940000",
+    default = true
+})
+
+hl.workspace_rule({
+    workspace = "2",
+    monitor = "desc:Dell Inc. DELL S2721DS H720R43",
+    default = true
+})
+
+hl.workspace_rule({
+    workspace = "3",
+    monitor = "desc:Dell Inc. DELL S2721DS 5P92VY3",
+    default = true
+})
+
 -- Ref https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
 -- "Smart gaps" / "No gaps when only"
 -- uncomment all if you wish to use that.
