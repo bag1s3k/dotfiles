@@ -7,7 +7,7 @@
 	recurseSubmodules = on-demand
 [core]
 	preloadindex = true
-	autocrlf = true
+	autocrlf = input
     editor = vim
 [url "git@github.com:bag1s3k/"]
 	insteadOf = "bg:"
