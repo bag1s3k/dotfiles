@@ -5,6 +5,25 @@ using [GNU Stow](https://www.gnu.org/software/stow/).
 
 ## Packages
 <!-- TABLE:START -->
+
+| App | Last update | Description of Update |
+| --- | ----------- | --------------------- |
+| bashrc | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| fastfetch | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| fish | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| gitconfig | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| gtk-3.0 | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| gtk-4.0 | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| hypr | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| kitty | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| nvim | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| rofi | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| starship | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| swaync | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| vim | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| waybar | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| zshrc | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+
 <!-- TABLE:END -->
 
 ## Installation
