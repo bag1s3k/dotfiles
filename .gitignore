@@ -17,3 +17,7 @@ fish/.config/fish/*
 gtk-3.0/.config/gtk-3.0/bookmarks
 gtk-4.0/.config/gtk-4.0/*
 !gtk-4.0/.config/gtk-4.0/settings.ini
+
+nvim/.config/nvim/.gitignore
+nvim/.config/nvim/lua/plugins/example.lua
+
