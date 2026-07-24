@@ -1,6 +1,7 @@
 [user]
 	name = bag1s3k
 	email = jetam.mravenec@gmail.com
+	signingkey = /home/bag1s3k/.ssh/id_ed25519.pub
 [submodule]
 	recurse = true
 [push]
@@ -33,3 +34,7 @@
   b = branch
   ch = checkout
   m = merge
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
