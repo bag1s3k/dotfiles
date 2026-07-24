@@ -1,6 +1,6 @@
 alias ...='cd ../..'
 
-alias la='eza -la --g'
+alias la='eza -la --git'
 alias tree='eza --tree -a'
 
 alias g='git'
