@@ -8,6 +8,9 @@
 **/*.md
 **/LICENSE
 
+**/.venv/
+**/__pycache__/
+
 vim/.vim/*
 !vim/.vim/autoload/
 
@@ -21,3 +24,4 @@ gtk-4.0/.config/gtk-4.0/*
 nvim/.config/nvim/.gitignore
 nvim/.config/nvim/lua/plugins/example.lua
 
+!README.md
