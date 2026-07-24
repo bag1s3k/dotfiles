@@ -24,4 +24,4 @@ gtk-4.0/.config/gtk-4.0/*
 nvim/.config/nvim/.gitignore
 nvim/.config/nvim/lua/plugins/example.lua
 
-!README.md
+!./README.md
