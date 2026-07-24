@@ -10,7 +10,7 @@ using [GNU Stow](https://www.gnu.org/software/stow/).
 | --- | ----------- | --------------------- |
 | bashrc | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
 | fastfetch | 2026-06-18 20:10:01 | refactor: remove unnecesary code/comments |
-| fish | 2026-07-24 09:44:01 | fix(alias): git flag |
+| fish | 2026-07-24 22:39:12 | Change time format to %Y-%d-%m |
 | gitconfig | 2026-07-24 20:49:29 | Enable GitHub commit verification using SSH key |
 | gtk-3.0 | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
 | gtk-4.0 | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
