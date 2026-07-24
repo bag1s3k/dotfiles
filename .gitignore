@@ -1,9 +1,12 @@
 **/.vscode/
 **/.idea/
 
-*.bak
-*.swp
+**/.git/
 
+**/*.bak
+**/*.swp
+**/*.md
+**/LICENSE
 
 vim/.vim/*
 !vim/.vim/autoload/
