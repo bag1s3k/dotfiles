@@ -8,21 +8,21 @@ using [GNU Stow](https://www.gnu.org/software/stow/).
 
 | App | Last update | Description of Update |
 | --- | ----------- | --------------------- |
-| bashrc | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| fastfetch | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| fish | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| gitconfig | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| gtk-3.0 | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| gtk-4.0 | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| hypr | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| kitty | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| nvim | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| rofi | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| starship | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| swaync | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| vim | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| waybar | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
-| zshrc | 2026-07-24 20:18:31 | fix(gitignore): don't ignore only README in the root |
+| bashrc | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
+| fastfetch | 2026-06-18 20:10:01 | refactor: remove unnecesary code/comments |
+| fish | 2026-07-24 09:44:01 | fix(alias): git flag |
+| gitconfig | 2026-07-24 09:24:22 | Add aliases to gitconfig and according to them adjust the fish ones |
+| gtk-3.0 | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
+| gtk-4.0 | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
+| hypr | 2026-07-24 09:20:34 | Automatically start on workspace 1 on start |
+| kitty | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
+| nvim | 2026-07-24 10:07:01 | Track nvim config |
+| rofi | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
+| starship | 2026-06-18 20:10:01 | refactor: remove unnecesary code/comments |
+| swaync | 2026-06-18 20:10:01 | refactor: remove unnecesary code/comments |
+| vim | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
+| waybar | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
+| zshrc | 2026-06-18 18:16:50 | Initial commit: My hyprpald & CLI setup |
 
 <!-- TABLE:END -->
 
