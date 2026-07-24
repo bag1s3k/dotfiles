@@ -1,24 +1,23 @@
 alias ...='cd ../..'
 
-alias la='eza -la --git'
+alias la='eza -la --g'
 alias tree='eza --tree -a'
 
-alias gs='git status'
-alias ga='git add'
-alias gc='git commit'
-alias gp='git push'
-alias gu='git pull'
-alias gl='git log --oneline --graph --all'
-alias gd="git diff --output-indicator-new=' ' --output-indicator-old=' '"
-alias gb='git branch'
-alias gi='git init'
-alias gcl='git clone'
-alias gch='git checkout'
-alias gm='git merge'
+alias g='git'
+alias gs='g s'
+alias ga='g a'
+alias gc='g c'
+alias gp='g p'
+alias gu='g u'
+alias gl='g l'
+alias gd='g d'
+alias gb='g b'
+alias gch='g ch'
+alias gm='g m'
 
 if status is-interactive
-# Commands to run in interactive sessions can go here
-	set fish_greeting
+    # Commands to run in interactive sessions can go here
+    set fish_greeting
     fastfetch
 end
 

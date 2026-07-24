@@ -22,3 +22,14 @@
 [diff]
 	context = 3
 	renames = copies
+[alias]
+  s = status
+  a = add
+  c = commit
+  p = push
+  u = pull
+  l = log --oneline --graph --all
+  d = diff --output-indicator-new=' ' --output-indicator-old=' '
+  b = branch
+  ch = checkout
+  m = merge
