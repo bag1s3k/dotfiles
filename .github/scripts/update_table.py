@@ -1,10 +1,12 @@
 import subprocess
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 
 README_PATH = "./README.md"
 START_TAG = "<!-- TABLE:START -->"
 END_TAG = "<!-- TABLE:END -->"
+TIMEZONE = "Europe/Prague"
 TABLE_HEADING = """
 | App | Last update | Description of Update |
 | --- | ----------- | --------------------- |
@@ -28,13 +30,17 @@ for dir in dirs:
     if timestamp:
         details = timestamp.split("@@SPLIT@@")
         current_data.append(
-            [dir.replace("/", ""), datetime.fromtimestamp(int(details[0])), details[1]]
+            [
+                dir.replace("/", ""),
+                datetime.fromtimestamp(int(details[0]), ZoneInfo(TIMEZONE)),
+                details[1],
+            ]
         )
 
 table = TABLE_HEADING
 for row in current_data:
     app, date, desc = row
-    table += f"| {app} | {date} | {desc} |\n"
+    table += f"| {app} | {date.strftime('%Y-%m-%d %H:%M')} | {desc} |\n"
 
 with open(README_PATH, "r", encoding="utf-8") as file:
     before, rest = file.read().split(START_TAG, 1)
