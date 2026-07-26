@@ -14,9 +14,9 @@ using [GNU Stow](https://www.gnu.org/software/stow/).
 | gitconfig | 2026-07-24 22:49 | Enable GitHub commit verification using SSH key |
 | gtk-3.0 | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 | gtk-4.0 | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
-| hypr | 2026-07-24 11:20 | Automatically start on workspace 1 on start |
+| hypr | 2026-07-26 12:19 | Add binds to resize window using keyboard |
 | kitty | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
-| nvim | 2026-07-24 12:07 | Track nvim config |
+| nvim | 2026-07-26 12:16 | Install 'windwp/autopairs' plugin |
 | rofi | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 | starship | 2026-06-18 22:10 | refactor: remove unnecesary code/comments |
 | swaync | 2026-06-18 22:10 | refactor: remove unnecesary code/comments |
