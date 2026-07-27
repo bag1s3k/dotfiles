@@ -26,3 +26,5 @@ nvim/.config/nvim/lua/plugins/example.lua
 
 !/README.md
 !/LICENSE
+
+.aider*
