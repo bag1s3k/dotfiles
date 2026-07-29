@@ -8,27 +8,27 @@
 -- Example window rules that are useful
 
 local suppressMaximizeRule = hl.window_rule({
-    -- Ignore maximize requests from all apps. You'll probably like this.
-    name  = "suppress-maximize-events",
-    match = { class = ".*" },
+	-- Ignore maximize requests from all apps. You'll probably like this.
+	name = "suppress-maximize-events",
+	match = { class = ".*" },
 
-    suppress_event = "maximize",
+	suppress_event = "maximize",
 })
 -- suppressMaximizeRule:set_enabled(false)
 
 hl.window_rule({
-    -- Fix some dragging issues with XWayland
-    name  = "fix-xwayland-drags",
-    match = {
-        class      = "^$",
-        title      = "^$",
-        xwayland   = true,
-        float      = true,
-        fullscreen = false,
-        pin        = false,
-    },
+	-- Fix some dragging issues with XWayland
+	name = "fix-xwayland-drags",
+	match = {
+		class = "^$",
+		title = "^$",
+		xwayland = true,
+		float = true,
+		fullscreen = false,
+		pin = false,
+	},
 
-    no_focus = true,
+	no_focus = true,
 })
 
 -- Layer rules also return a handle.
@@ -41,35 +41,35 @@ hl.window_rule({
 
 -- Hyprland-run windowrule
 hl.window_rule({
-    name  = "move-hyprland-run",
-    match = { class = "hyprland-run" },
+	name = "move-hyprland-run",
+	match = { class = "hyprland-run" },
 
-    move  = "20 monitor_h-120",
-    float = true,
+	move = "20 monitor_h-120",
+	float = true,
 })
 
 hl.layer_rule({
 	name = "notification-animations",
 	match = { namespace = "swaync-control-center" },
-	animation = "slide top"
+	animation = "slide top",
 })
 
 hl.window_rule({
-    name  = "float-overskride",
-    match = { class = "^(io.github.kaii_lb.Overskride)$" },
+	name = "float-overskride",
+	match = { class = "^(io.github.kaii_lb.Overskride)$" },
 
-    float  = true,
-    center = true,
-    size   = { 800, 600 }
+	float = true,
+	center = true,
+	size = { 800, 600 },
 })
 
 hl.window_rule({
-    name  = "float-nwg-look",
-    match = { class = "^(nwg-look)$" },
+	name = "float-nwg-look",
+	match = { class = "^(nwg-look)$" },
 
-    float  = true,
-    center = true,
-    size   = { 800, 600 }
+	float = true,
+	center = true,
+	size = { 800, 600 },
 })
 
 hl.window_rule({
@@ -78,7 +78,7 @@ hl.window_rule({
 
 	float = true,
 	center = true,
-	size = { 1200, 800 }
+	size = { 1200, 800 },
 })
 
 hl.window_rule({
@@ -87,14 +87,21 @@ hl.window_rule({
 
 	float = true,
 	center = true,
-	size = { 1200, 800 }
+	size = { 1200, 800 },
 })
 
 hl.window_rule({
-    name = "float-pavucontrol",
-    match = { class = "^(org.pulseaudio.pavucontrol)$" },
+	name = "float-pavucontrol",
+	match = { class = "^(org.pulseaudio.pavucontrol)$" },
 
-    float = true,
-    center = true,
-    size = { 800, 600 }
+	float = true,
+	center = true,
+	size = { 800, 600 },
+})
+
+hl.window_rule({
+	match = { class = "clipse" },
+	float = true,
+	center = true,
+	size = { 800, 600 },
 })

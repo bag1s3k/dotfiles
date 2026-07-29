@@ -18,6 +18,7 @@ hl.on("hyprland.start", function ()
     hl.exec_cmd("swaync")
     hl.exec_cmd("hypridle")
     hl.exec_cmd("hyprsunset")
+    hl.exec_cmd("clipse -listen")
     
     hl.dispatch(hl.dsp.focus({ workspace = 1 }))
 end)
