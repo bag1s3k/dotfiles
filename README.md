@@ -14,7 +14,7 @@ using [GNU Stow](https://www.gnu.org/software/stow/).
 | gitconfig | 2026-07-24 22:49 | Enable GitHub commit verification using SSH key |
 | gtk-3.0 | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 | gtk-4.0 | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
-| hypr | 2026-07-26 12:30 | Add binds to resize window using keyboard |
+| hypr | 2026-07-30 00:48 | Add clipse clipboard manager integration |
 | kitty | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 | nvim | 2026-07-28 00:54 | Update nvim plugins |
 | rofi | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
