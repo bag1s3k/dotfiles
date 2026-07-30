@@ -15,8 +15,8 @@ using [GNU Stow](https://www.gnu.org/software/stow/).
 | gtk-3.0 | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 | gtk-4.0 | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 | hypr | 2026-07-30 00:48 | Add clipse clipboard manager integration |
-| kitty | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
-| nvim | 2026-07-28 00:54 | Update nvim plugins |
+| kitty | 2026-07-30 11:19 | Make lazyvim fill terminal window |
+| nvim | 2026-07-30 11:19 | Make lazyvim fill terminal window |
 | rofi | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 | starship | 2026-06-18 22:10 | refactor: remove unnecesary code/comments |
 | swaync | 2026-06-18 22:10 | refactor: remove unnecesary code/comments |
