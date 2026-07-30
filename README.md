@@ -9,7 +9,7 @@ using [GNU Stow](https://www.gnu.org/software/stow/).
 | App | Last update | Description of Update |
 | --- | ----------- | --------------------- |
 | bashrc | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
-| clipse | 2026-07-30 12:09 | Make clipse window minimalistic |
+| clipse | 2026-07-30 12:12 | Make clipse window more minimalistic |
 | fastfetch | 2026-06-18 22:10 | refactor: remove unnecesary code/comments |
 | fish | 2026-07-25 00:39 | Change time format to %Y-%d-%m |
 | gitconfig | 2026-07-24 22:49 | Enable GitHub commit verification using SSH key |
