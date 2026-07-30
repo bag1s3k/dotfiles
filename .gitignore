@@ -28,3 +28,6 @@ nvim/.config/nvim/lua/plugins/example.lua
 !/LICENSE
 
 .aider*
+
+clipse/.config/clipse/*
+!/clipse/.config/clipse/config.json
