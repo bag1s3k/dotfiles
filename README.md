@@ -17,12 +17,12 @@ using [GNU Stow](https://www.gnu.org/software/stow/).
 | gtk-4.0 | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 | hypr | 2026-07-30 00:48 | Add clipse clipboard manager integration |
 | kitty | 2026-07-30 11:19 | Make lazyvim fill terminal window |
-| nvim | 2026-07-30 12:11 | Enable spell checker |
+| nvim | 2026-07-30 16:17 | Change autocomplete bind to <super-tab> instead of <Enter> |
 | rofi | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
-| starship | 2026-06-18 22:10 | refactor: remove unnecesary code/comments |
+| starship | 2026-07-30 16:08 | Change to minimalistic config |
 | swaync | 2026-06-18 22:10 | refactor: remove unnecesary code/comments |
 | vim | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
-| waybar | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
+| waybar | 2026-07-31 00:05 | Remove underline status bar cause it's useless and inconsistent |
 | zshrc | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 
 <!-- TABLE:END -->
