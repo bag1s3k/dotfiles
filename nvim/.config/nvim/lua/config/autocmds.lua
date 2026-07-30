@@ -6,3 +6,15 @@
 --
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+
+local kitty_group = vim.api.nvim_create_augroup("KittyPadding", { clear = true })
+
+vim.api.nvim_create_autocmd("VimEnter", {
+  group = kitty_group,
+  command = "silent !kitty @ set-spacing padding=0",
+})
+
+vim.api.nvim_create_autocmd("VimLeavePre", {
+  group = kitty_group,
+  command = "silent !kitty @ set-spacing padding=default",
+})
