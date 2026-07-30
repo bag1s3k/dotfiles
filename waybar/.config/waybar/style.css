@@ -95,19 +95,6 @@ window#waybar {
  padding: 5px;
 }
 
-#tray > .passive {
-	border-bottom: 4px solid red;
-}
-
-#tray > .active {
-	/* background-image: radial-gradient(circle at 0px 0px, #ff0055 5px, transparent 3px); */
-	border-bottom: 4px solid green;
-}
-
-#tray > .needs-attention {
-	border-bottom: 4px solid orange;
-}
-
 tooltip {
   background: @dark-9;
   border-radius: 5px;
