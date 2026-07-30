@@ -31,3 +31,4 @@ nvim/.config/nvim/lua/plugins/example.lua
 
 clipse/.config/clipse/*
 !/clipse/.config/clipse/config.json
+!/clipse/.config/clipse/custom_theme.json
