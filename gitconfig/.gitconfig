@@ -10,6 +10,7 @@
 	preloadindex = true
 	autocrlf = input
     editor = vim
+	fsmonitor = true
 [url "git@github.com:bag1s3k/"]
 	insteadOf = "bg:"
 [url "git@github.com:"]
