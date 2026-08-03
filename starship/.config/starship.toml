@@ -41,66 +41,66 @@ min_time_to_notify = 45000
 
 [nodejs]
 symbol = ""
-style = "bg:green"
-format = '[$symbol $version]($style)'
+style = "fg:#339933"
+format = '[$symbol $version ]($style)'
 
 [bun]
 symbol = ""
-style = "bg:green"
-format = '[$symbol $version]($style)'
+style = "fg:#F0DB4F"
+format = '[$symbol $version ]($style)'
 
 [c]
 symbol = ""
-style = "bg:green"
-format = '[$symbol $version]($style)'
+style = "fg:#555555"
+format = '[$symbol $version ]($style)'
 
 [rust]
 symbol = ""
-style = "bg:green"
-format = '[$symbol $version]($style)'
+style = "fg:#DEA584"
+format = '[$symbol $version ]($style)'
 
 [golang]
 symbol = ""
-style = "bg:green"
-format = '[$symbol $version]($style)'
+style = "fg:#00ADD8"
+format = '[$symbol $version ]($style)'
 
 [php]
 symbol = ""
-style = "bg:green"
-format = '[$symbol $version]($style)'
+style = "fg:#777BB4"
+format = '[$symbol $version ]($style)'
 
 [java]
 symbol = ""
-style = "bg:green"
-format = '[$symbol $version]($style)'
+style = "fg:#F89820"
+format = '[$symbol $version ]($style)'
 
 [kotlin]
 symbol = ""
-style = "bg:green"
-format = '[$symbol $version]($style)'
+style = "fg:#7F52FF"
+format = '[$symbol $version ]($style)'
 
 [haskell]
 symbol = ""
-style = "bg:green"
-format = '[$symbol $version]($style)'
+style = "fg:#5e5086"
+format = '[$symbol $version ]($style)'
 
 [python]
 symbol = ""
-style = "purple"
+style = "fg:#3572A5"
 format = '[$symbol( $version)( #$virtualenv) ]($style)'
 
 [docker_context]
 symbol = ""
-style = "bg:sapphire"
-format = '[$symbol $context]($style)'
+style = "fg:#2496ED"
+format = '[$symbol $context ]($style)'
 
 [conda]
 symbol = ""
-style = "bg:sapphire"
-format = '[(fg:crust bg:sapphire)]($style)'
+style = "fg:#44A833"
+format = '[(fg:crust bg:sapphire) ]($style)'
 ignore_base = false
 
 [lua]
 symbol = ""
-style = "purple"
-format = "[$symbol $context]($style)"
+style = "fg:#1993B9"
+format = "[$symbol $context ]($style)"
