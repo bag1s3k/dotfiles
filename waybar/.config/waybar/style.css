@@ -13,7 +13,6 @@
 
 window#waybar {
   background-color: transparent;
-  color: white;
 }
 
 #workspaces button {
@@ -28,6 +27,18 @@ window#waybar {
   background: #e6e6e6;
   color: black;
   font-weight: 700;
+}
+
+#workspaces button.empty {
+  color: #575757;
+}
+
+#workspaces button:not(.empty):not(.hosting-monitor) {
+  color: #4F4F4F;
+}
+
+#workspaces button.active:not(.hosting-monitor) {
+  background: transparent;
 }
 
 #custom-asus-profile,
