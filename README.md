@@ -15,14 +15,14 @@ using [GNU Stow](https://www.gnu.org/software/stow/).
 | gitconfig | 2026-08-03 12:51 | Enable fsmonitor |
 | gtk-3.0 | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 | gtk-4.0 | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
-| hypr | 2026-07-30 00:48 | Add clipse clipboard manager integration |
+| hypr | 2026-08-07 21:24 | feat(hyprland): add 10th workspace |
 | kitty | 2026-08-03 22:52 | Update kitty bright color palette |
 | nvim | 2026-07-30 16:17 | Change autocomplete bind to <super-tab> instead of <Enter> |
 | rofi | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 | starship | 2026-08-03 23:10 | Remove space added by mistake |
 | swaync | 2026-06-18 22:10 | refactor: remove unnecesary code/comments |
 | vim | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
-| waybar | 2026-07-31 00:05 | Remove underline status bar cause it's useless and inconsistent |
+| waybar | 2026-08-07 21:26 | feat(waybar): distinguish active/inactive/empty workspaces pre monitor |
 | zshrc | 2026-06-18 20:16 | Initial commit: My hyprpald & CLI setup |
 
 <!-- TABLE:END -->
