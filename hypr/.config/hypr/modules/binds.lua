@@ -61,6 +61,7 @@ local cz_keys = {
 	"yacute",
 	"aacute",
 	"iacute",
+	"eacute",
 }
 
 for i, key in ipairs(cz_keys) do
