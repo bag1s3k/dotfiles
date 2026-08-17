@@ -14,6 +14,7 @@ alias gd='g d'
 alias gb='g b'
 alias gch='g ch'
 alias gm='g m'
+alias gcd='cd $(git rev-parse --show-toplevel)'
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
