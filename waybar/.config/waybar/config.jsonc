@@ -46,9 +46,6 @@
   "tray": {
     "spacing": 10
   },
-  "hyprland/window": {
-    "max-length": 50
-  },
   "battery": {
     "interval": 60,
     "format": "{icon}  {capacity}%",
@@ -91,18 +88,19 @@
     "on-click": "exec flatpak run io.github.kaii_lb.Overskride"
   },
   "cpu": {
-    "interval": 10,
+    "interval": 3,
     "format": " {}%",
     "max-length": 10,
     "on-click": "exec ghostty --title=btop -e btop"
   },
   "memory": {
-    "interval": 60,
+    "interval": 15,
     "format": "   {percentage}%",
     "tooltip-format": "{used:0.1f}G/{total:0.1f}G used",
     "on-click": "exec ghostty --title=htop -e htop"
   },
   "network": {
+    "interval": 5,
     "format": "",
     "format-wifi": " {essid}",
     "format-ethernet": "󱘖",
@@ -115,7 +113,8 @@
     "on-click": "exec nmrs"
   },
   "clock": {
-    "format": "  {:%H:%M | %d.%m.}",
+    "interval": 60,
+    "format": "{:%d.%m.  <span color='#545454'>•</span>  %H:%M}",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
     "calendar": {
       "format": {
@@ -162,17 +161,6 @@
     "device": "intel_backlight",
     "format": "󰛨 {percent}%",
     "tooltip": false
-  },
-  "power-profiles-daemon": {
-    "format": "{icon}",
-    "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
-    "tooltip": true,
-    "format-icons": {
-      "default": "",
-      "performance": "",
-      "balanced": "",
-      "power-saver": ""
-    }
   },
   "custom/asus-profile": {
     "exec": "asusctl profile get | awk '/Active profile/ {print $3}' | sed 's/Quiet/󰌪/; s/Balanced/󰾆/; s/Performance/󰓅/'",
