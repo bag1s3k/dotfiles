@@ -1,13 +1,13 @@
-@define-color center-bg                 rgba(15, 15, 15, 0.85);
-@define-color notification-bg           rgba(20, 20, 20, 0.95);
-@define-color center-notification-bg    rgba(30, 30, 30, 0.85);
-@define-color background                rgba(15, 15, 15, 0.9);
-@define-color background-alt            rgba(45, 45, 45, 0.8);
+@define-color center-bg                 rgba(17, 17, 27, 0.85);
+@define-color notification-bg           rgba(24, 24, 37, 0.95);
+@define-color center-notification-bg    rgba(30, 30, 46, 0.85);
+@define-color background                rgba(17, 17, 27, 0.9);
+@define-color background-alt            rgba(49, 50, 68, 0.8);
 
-@define-color text                      #e0e0e0;
-@define-color text-alt                  #888888;
+@define-color text                      #cdd6f4;
+@define-color text-alt                  #a6adc8;
 
-@define-color selected                  #ffffff;
-@define-color hover                     rgba(255, 255, 255, 0.1);
+@define-color selected                  #cba6f7;
+@define-color hover                     rgba(205, 214, 244, 0.1);
 
-@define-color urgent                    #ffffff;
+@define-color urgent                    #f38ba8;
