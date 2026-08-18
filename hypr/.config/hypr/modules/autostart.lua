@@ -13,7 +13,7 @@ hl.on("hyprland.start", function()
 	--hl.exec_cmd("systemctl --user restart xdg-desktop-portal")
 	--hl.exec_cmd("systemctl --user start xdg-desktop-portal-hyprland")
 
-	hl.exec_cmd("swaybg -i ~/Pictures/wallpapers/dark-mountains-ai-regenerated.jpg -m fill")
+	hl.exec_cmd("swaybg -i ~/Pictures/wallpapers/catppuccin-dark-mountains.jpg -m fill")
 	hl.exec_cmd("waybar")
 	hl.exec_cmd("swaync")
 	hl.exec_cmd("hypridle")
