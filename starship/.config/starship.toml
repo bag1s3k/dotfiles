@@ -4,7 +4,7 @@ command_timeout = 1500
 
 [username]
 show_always = true
-style_user = "fg:#8AADF5"
+style_user = "fg:#89b4fa"
 format = "[@$user ]($style)"
 
 [directory]
@@ -14,10 +14,10 @@ truncate_to_repo = false
 truncation_symbol = "~/"
 
 [git_branch]
-style = "fg:yellow"
+style = "fg:#f9e2af"
 
 [git_status]
-style = "fg:red"
+style = "fg:#f38ba8"
 format = "[$all_status$ahead_behind ]($style)"
 
 [line_break]
@@ -28,79 +28,79 @@ disabled = true
 
 [character]
 disabled = false
-success_symbol = '[➜](bold fg:green)'
-error_symbol = '[](bold fg:red)'
+success_symbol = '[➜](bold fg:#a6e3a1)'
+error_symbol = '[](bold fg:#f38ba8)'
 
 [cmd_duration]
 show_milliseconds = false
 format = "$duration "
-style = "bg:lavender"
+style = "bg:#b4befe"
 disabled = false
 show_notifications = false
 min_time_to_notify = 45000
 
 [nodejs]
 symbol = ""
-style = "fg:#339933"
+style = "fg:#a6e3a1"
 format = '[$symbol $version ]($style)'
 
 [bun]
 symbol = ""
-style = "fg:#F0DB4F"
+style = "fg:#f9e2af"
 format = '[$symbol $version ]($style)'
 
 [c]
 symbol = ""
-style = "fg:#555555"
+style = "fg:#a6adc8"
 format = '[$symbol $version ]($style)'
 
 [rust]
 symbol = ""
-style = "fg:#DEA584"
+style = "fg:#fab387"
 format = '[$symbol $version ]($style)'
 
 [golang]
 symbol = ""
-style = "fg:#00ADD8"
+style = "fg:#94e2d5"
 format = '[$symbol $version ]($style)'
 
 [php]
 symbol = ""
-style = "fg:#777BB4"
+style = "fg:#cba6f7"
 format = '[$symbol $version ]($style)'
 
 [java]
 symbol = ""
-style = "fg:#F89820"
+style = "fg:#eba0ac"
 format = '[$symbol $version ]($style)'
 
 [kotlin]
 symbol = ""
-style = "fg:#7F52FF"
+style = "fg:#f5c2e7"
 format = '[$symbol $version ]($style)'
 
 [haskell]
 symbol = ""
-style = "fg:#5e5086"
+style = "fg:#b4befe"
 format = '[$symbol $version ]($style)'
 
 [python]
 symbol = ""
-style = "fg:#3572A5"
+style = "fg:#74c7ec"
 format = '[$symbol( $version)( #$virtualenv) ]($style)'
 
 [docker_context]
 symbol = ""
-style = "fg:#2496ED"
+style = "fg:#89b4fa"
 format = '[$symbol $context ]($style)'
 
 [conda]
 symbol = ""
-style = "fg:#44A833"
-format = '[(fg:crust bg:sapphire) ]($style)'
+style = "fg:#94e2d5"
+format = '[(fg:#11111b bg:#94e2d5) ]($style)'
 ignore_base = false
 
 [lua]
 symbol = ""
-style = "fg:#1993B9"
+style = "fg:#89dceb"
 format = "[$symbol $context ]($style)"
