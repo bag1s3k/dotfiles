@@ -20,9 +20,10 @@
 .notification-background {
 	background: @notification-bg;
 	border-radius: var(--border-radius);
-	margin: 8px;
+	margin: 15px 8px 8px 8px;
 	padding: 0;
 	box-shadow: none;
+  border: solid 1px @selected;
 }
 
 .notification-background .close-button {
@@ -109,6 +110,7 @@
 	border-radius: var(--border-radius);
 	margin: 5px;
 	padding: 5px 5px 0 5px;
+  border: solid 1px @selected;
 }
 
 .control-center .notification-background {
