@@ -1,10 +1,29 @@
-@define-color highlight rgba(117, 241, 250, 1);
-@define-color dark-9 rgba(24, 24, 27, 1);
-@define-color dark-8 rgba(39, 39, 42, 1);
-@define-color dark-7 rgba(63, 63, 70, 1);
-@define-color dark-6 rgba(82, 82, 91, 1);
-@define-color dark-5 rgba(113, 113, 122, 1);
+/* ============================================ */
+/* CATPPUCCIN MOCHA PALETTE VARIABLES           */
+/* ============================================ */
+@define-color base      #1e1e2e;
+@define-color mantle    #181825;
+@define-color crust     #11111b;
 
+@define-color text      #cdd6f4;
+@define-color subtext0  #4d536b;
+@define-color overlay2  #9399b2;
+@define-color overlay0  #6c7086;
+@define-color surface2  #585b70;
+@define-color surface1  #363747;
+@define-color surface0  #313244;
+
+@define-color mauve     #cba6f7;
+@define-color blue      #89b4fa;
+@define-color sapphire  #74c7ec;
+@define-color teal      #94e2d5;
+@define-color green     #a6e3a1;
+@define-color peach     #fab387;
+@define-color red       #f38ba8;
+
+/* ============================================ */
+/* GLOBAL STYLES                                */
+/* ============================================ */
 * {
   all: unset;
   font-family: JetBrainsMono Nerd Font Propo, "Symbols Nerd Font", sans-serif;
@@ -15,32 +34,45 @@ window#waybar {
   background-color: transparent;
 }
 
+/* ============================================ */
+/* WORKSPACES                                   */
+/* ============================================ */
 #workspaces button {
   padding: 1px 10px;
   margin: 0 3px;
   background: transparent;
-  border-radius: 9px;
-  color: white;
+  border-radius: 8px;
+  color: @text;
+  transition: all 0.2s ease-in-out;
 }
 
 #workspaces button.active {
-  background: #e6e6e6;
-  color: black;
+  background: @mauve;
+  color: @crust;
   font-weight: 700;
 }
 
 #workspaces button.empty {
-  color: #575757;
+  color: @overlay0;
 }
 
 #workspaces button:not(.empty):not(.hosting-monitor) {
-  color: #4F4F4F;
+  color: @subtext0;
 }
 
 #workspaces button.active:not(.hosting-monitor) {
-  background: transparent;
+  background: @surface1;
+  color: @text;
 }
 
+#workspaces button.urgent {
+  background: @red;
+  color: @crust;
+}
+
+/* ============================================ */
+/* MODULES BASE STYLING                         */
+/* ============================================ */
 #custom-asus-profile,
 #power-profiles-daemon,
 #backlight,
@@ -55,23 +87,40 @@ window#waybar {
 #cpu,
 #memory,
 #volume {
+  background-color: @mantle;
   border-radius: 10px;
-  border: solid 1px rgba(70, 70, 70, 1);
-  padding: 5px 10px;
+  border: solid 1px @surface1;
+  padding: 5px 12px;
   margin: 0 5px;
-  font-weight: 600
+  font-weight: 600;
+  color: @text;
 }
 
+/* ============================================ */
+/* MODULE SPECIFIC COLORS                       */
+/* ============================================ */
 #clock {
   padding: 5px 20px;
+  color: @mauve;
 }
 
-#submap,
-#workspaces button.urgent {
-  background: rgba(227, 81, 73, 1);
-  color: black;
+#battery { color: @green; }
+#network { color: @sapphire; }
+#bluetooth { color: @blue; }
+#volume { color: @blue; }
+#backlight { color: @peach; }
+#cpu { color: @peach; }
+#memory { color: @teal; }
+
+#submap {
+  background: @red;
+  color: @crust;
+  border-color: @red;
 }
 
+/* ============================================ */
+/* PULSEAUDIO SLIDER                            */
+/* ============================================ */
 #pulseaudio-slider {
   padding: 0px;
   margin: 0px;
@@ -92,25 +141,31 @@ window#waybar {
   min-height: 8px;
   min-width: 75px;
   border-radius: 5px;
-  background: @dark-7;
+  background: @surface0;
 }
 
 #pulseaudio-slider highlight {
   min-width: 10px;
   border-radius: 5px;
-  background: white;
+  background: @blue;
 }
 
+/* ============================================ */
+/* TRAY & TOOLTIPS                              */
+/* ============================================ */
 #tray menu {
- background: black;
- padding: 5px;
+  background: @base;
+  border: 1px solid @surface1;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 tooltip {
-  background: @dark-9;
-  border-radius: 5px;
+  background: @mantle;
+  border: 1px solid @surface1;
+  border-radius: 8px;
 }
 
 tooltip label {
-  color: white;
+  color: @text;
 }
