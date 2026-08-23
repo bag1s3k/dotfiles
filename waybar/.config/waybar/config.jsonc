@@ -95,8 +95,7 @@
   "memory": {
     "interval": 15,
     "format": "   {percentage}%",
-    "tooltip-format": "{used:0.1f}G/{total:0.1f}G used",
-    "on-click": "exec ghostty --title=htop -e htop"
+    "tooltip-format": "{used:0.1f}G/{total:0.1f}G used"
   },
   "network": {
     "interval": 5,
