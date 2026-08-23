@@ -2,11 +2,6 @@
 
 command_timeout = 1500
 
-[username]
-show_always = true
-style_user = "fg:#89b4fa"
-format = "[@$user ]($style)"
-
 [directory]
 format = "[$path ]($style)"
 truncation_length = 6
