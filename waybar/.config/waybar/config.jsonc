@@ -88,9 +88,8 @@
   },
   "cpu": {
     "interval": 3,
-    "format": " {}%",
-    "max-length": 10,
-    "on-click": "exec ghostty --title=btop -e btop"
+    "min-length": 8,
+    "format": " {}%"
   },
   "memory": {
     "interval": 15,
