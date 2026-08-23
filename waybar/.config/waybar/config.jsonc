@@ -84,8 +84,7 @@
     "format-connected": "󰂱",
     "tooltip-format": "No devices",
     "tooltip-format-connected": "{device_enumerate}",
-    "tooltip-format-enumerate-connected": "{device_alias} {device_battery_percentage}%",
-    "on-click": "exec flatpak run io.github.kaii_lb.Overskride"
+    "tooltip-format-enumerate-connected": "{device_alias} {device_battery_percentage}%"
   },
   "cpu": {
     "interval": 3,
