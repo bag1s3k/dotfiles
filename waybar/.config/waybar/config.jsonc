@@ -96,11 +96,6 @@
     "min-length": 8,
     "format": " {}%"
   },
-  "memory": {
-    "interval": 15,
-    "format": "   {percentage}%",
-    "tooltip-format": "{used:0.1f}G/{total:0.1f}G used"
-  },
   "network": {
     "interval": 5,
     "format": "",
@@ -111,8 +106,7 @@
     "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
     "tooltip-format-ethernet": "{ifname}  {ipaddr}/{cidr}  ",
     "tooltip-format-disconnected": "󰖪",
-    "max-length": 50,
-    "on-click": "exec nmrs"
+    "max-length": 50
   },
   "clock": {
     "interval": 60,
