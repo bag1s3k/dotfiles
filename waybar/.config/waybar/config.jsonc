@@ -13,16 +13,21 @@
     "clock"
   ],
   "modules-right": [
-    "custom/asus-profile",
+    "group/single-icons",
     "backlight",
     "hyprland/submap",
     "group/volume",
-    "bluetooth",
-    "network",
     "battery",
-    "cpu",
-    "memory"
+    "cpu"
   ],
+  "group/single-icons": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/asus-profile",
+      "bluetooth",
+      "network"
+    ]
+  },
   "hyprland/workspaces": {
     "format": "{icon}",
     "format-icons": {
