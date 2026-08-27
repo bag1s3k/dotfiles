@@ -1,25 +1,13 @@
-/* ============================================ */
-/* CATPPUCCIN MOCHA PALETTE VARIABLES           */
-/* ============================================ */
-@define-color base      #1e1e2e;
-@define-color mantle    #181825;
-@define-color crust     #11111b;
+@define-color text      #e3e3e3;
+@define-color bg        #111111;
+@define-color border    #282828;
 
-@define-color text      #cdd6f4;
-@define-color subtext0  #4d536b;
-@define-color overlay2  #9399b2;
-@define-color overlay0  #6c7086;
-@define-color surface2  #585b70;
-@define-color surface1  #363747;
-@define-color surface0  #313244;
+@define-color subtext0  #696969;
+@define-color overlay0  #828282;
+@define-color surface1  #333333;
+@define-color surface0  #363636;
 
-@define-color mauve     #cba6f7;
-@define-color blue      #89b4fa;
-@define-color sapphire  #74c7ec;
-@define-color teal      #94e2d5;
-@define-color green     #a6e3a1;
-@define-color peach     #fab387;
-@define-color red       #f38ba8;
+@define-color red       #d91111;
 
 /* ============================================ */
 /* GLOBAL STYLES                                */
@@ -47,8 +35,8 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background: @mauve;
-  color: @crust;
+  background: @text;
+  color: @bg;
   font-weight: 700;
 }
 
@@ -67,14 +55,12 @@ window#waybar {
 
 #workspaces button.urgent {
   background: @red;
-  color: @crust;
+  color: @bg;
 }
 
 /* ============================================ */
 /* MODULES BASE STYLING                         */
 /* ============================================ */
-#custom-asus-profile,
-#power-profiles-daemon,
 #backlight,
 #taskbar,
 #tray,
@@ -82,14 +68,12 @@ window#waybar {
 #clock,
 #submap,
 #battery,
-#bluetooth,
-#network,
+#single-icons,
 #cpu,
-#memory,
 #volume {
-  background-color: @mantle;
+  background-color: @bg;
   border-radius: 10px;
-  border: solid 1px @surface1;
+  border: solid 1px @border;
   padding: 5px 12px;
   margin: 0 5px;
   font-weight: 600;
@@ -97,24 +81,18 @@ window#waybar {
 }
 
 /* ============================================ */
-/* MODULE SPECIFIC COLORS                       */
+/* MODULE SPECIFIC STYLING                      */
 /* ============================================ */
 #clock {
   padding: 5px 20px;
-  color: @mauve;
 }
 
-#battery { color: @green; }
-#network { color: @sapphire; }
-#bluetooth { color: @blue; }
-#volume { color: @blue; }
-#backlight { color: @peach; }
-#cpu { color: @peach; }
-#memory { color: @teal; }
+#bluetooth {
+  margin: 0 10px;
+}
 
 #submap {
   background: @red;
-  color: @crust;
   border-color: @red;
 }
 
@@ -147,22 +125,22 @@ window#waybar {
 #pulseaudio-slider highlight {
   min-width: 10px;
   border-radius: 5px;
-  background: @blue;
+  background: @text;
 }
 
 /* ============================================ */
 /* TRAY & TOOLTIPS                              */
 /* ============================================ */
 #tray menu {
-  background: @base;
-  border: 1px solid @surface1;
+  background: @bg;
+  border: 1px solid @border;
   border-radius: 8px;
   padding: 5px;
 }
 
 tooltip {
-  background: @mantle;
-  border: 1px solid @surface1;
+  background: @bg;
+  border: 1px solid @border;
   border-radius: 8px;
 }
 
