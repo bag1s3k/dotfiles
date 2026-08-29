@@ -32,6 +32,12 @@ hl.monitor({
 	scale = 1,
 	transform = 3,
 })
+
+hl.monitor({
+	output = "desc:Technical Concepts Ltd Beyond TV 0x00010000",
+	mode = "3840x2160@60",
+	scale = 2,
+})
 })
 
 hl.workspace_rule({
@@ -39,6 +45,11 @@ hl.workspace_rule({
 	monitor = "desc:GIGA-BYTE TECHNOLOGY CO. LTD. M27QA FA3T01940000",
 	default = true,
 })
+
+hl.workspace_rule({
+	workspace = 2,
+	monitor = "desc:Technical Concepts Ltd Beyond TV 0x00010000",
+	default = true,
 })
 
 hl.workspace_rule({
