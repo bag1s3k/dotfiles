@@ -3,14 +3,12 @@
 ------------------
 
 -- See https://wiki.hypr.land/Configuring/Basics/Monitors/
-hl.monitor({ output = "", mode = "preferred", position = "auto", scale = 1 })
 hl.monitor({
-    --output   = "eDP-1", -- integraded monitor
-    output = "desc:BOE NE140QDM-NX7",
-    disabled = true,
-    mode     = "2560x1600@60.001999",
-    position = "auto",
-    scale = "1.25",
+	output = "",
+	mode = "preferred",
+	position = "auto",
+	scale = 1.25,
+	mirror = "desc:BOE NE140QDM-NX7",
 })
 hl.monitor({
 	--output = "DP-12", -- Gigabyte
