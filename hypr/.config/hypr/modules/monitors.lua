@@ -15,40 +15,42 @@ hl.monitor({
 	output = "desc:GIGA-BYTE TECHNOLOGY CO. LTD. M27QA FA3T01940000",
 	mode = "2560x1440@180",
 	position = "1440x0",
-	scale = "1",
+	scale = 1,
 })
 hl.monitor({
 	--output = "DP-9", -- Dell right
 	output = "desc:Dell Inc. DELL S2721DS H720R43",
 	mode = "2560x1440@59.95",
 	position = "4000x0",
-	scale = "1",
+	scale = 1,
 })
 hl.monitor({
 	--output = "DP-10", -- Dell left
 	output = "desc:Dell Inc. DELL S2721DS 5P92VY3",
 	mode = "2560x1440@59.95",
 	position = "0x-150",
-	scale = "1",
-	transform = 3
+	scale = 1,
+	transform = 3,
+})
 })
 
 hl.workspace_rule({
-    workspace = "1",
-    monitor = "desc:GIGA-BYTE TECHNOLOGY CO. LTD. M27QA FA3T01940000",
-    default = true
+	workspace = 1,
+	monitor = "desc:GIGA-BYTE TECHNOLOGY CO. LTD. M27QA FA3T01940000",
+	default = true,
+})
 })
 
 hl.workspace_rule({
-    workspace = "2",
-    monitor = "desc:Dell Inc. DELL S2721DS H720R43",
-    default = true
+	workspace = 2,
+	monitor = "desc:Dell Inc. DELL S2721DS H720R43",
+	default = true,
 })
 
 hl.workspace_rule({
-    workspace = "3",
-    monitor = "desc:Dell Inc. DELL S2721DS 5P92VY3",
-    default = true
+	workspace = 3,
+	monitor = "desc:Dell Inc. DELL S2721DS 5P92VY3",
+	default = true,
 })
 
 -- Ref https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
