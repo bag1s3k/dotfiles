@@ -10,6 +10,16 @@ hl.monitor({
 	scale = 1.25,
 	mirror = "desc:BOE NE140QDM-NX7",
 })
+
+hl.monitor({
+	--output   = "eDP-1", -- integraded monitor
+	output = "desc:BOE NE140QDM-NX7",
+	disabled = true,
+	mode = "2560x1600@60.001999",
+	position = "auto",
+	scale = 1.25,
+})
+
 hl.monitor({
 	--output = "DP-12", -- Gigabyte
 	output = "desc:GIGA-BYTE TECHNOLOGY CO. LTD. M27QA FA3T01940000",
@@ -17,6 +27,7 @@ hl.monitor({
 	position = "1440x0",
 	scale = 1,
 })
+
 hl.monitor({
 	--output = "DP-9", -- Dell right
 	output = "desc:Dell Inc. DELL S2721DS H720R43",
@@ -24,6 +35,7 @@ hl.monitor({
 	position = "4000x0",
 	scale = 1,
 })
+
 hl.monitor({
 	--output = "DP-10", -- Dell left
 	output = "desc:Dell Inc. DELL S2721DS 5P92VY3",
@@ -38,6 +50,11 @@ hl.monitor({
 	mode = "3840x2160@60",
 	scale = 2,
 })
+
+hl.workspace_rule({
+	workspace = 1,
+	monitor = "desc:BOE NE140QDM-NX7",
+	default = true,
 })
 
 hl.workspace_rule({
