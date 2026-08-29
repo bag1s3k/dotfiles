@@ -58,3 +58,4 @@ alias gpu-status='supergfxctl -g'
 
 # Autostart
 fastfetch
+. "$HOME/.cargo/env"
