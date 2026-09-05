@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.opt.spell = true
 vim.opt.spelllang = { "cs", "en" } -- Čeština a Angličtina
+vim.opt.wrap = true
