@@ -4,3 +4,7 @@
 vim.opt.spell = true
 vim.opt.spelllang = { "cs", "en" } -- Čeština a Angličtina
 vim.opt.wrap = true
+
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
