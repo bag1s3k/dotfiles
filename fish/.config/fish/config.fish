@@ -1,5 +1,8 @@
 alias ...='cd ../..'
 
+alias nv='nvim'
+alias v='vim'
+
 alias la='eza -la --git'
 alias tree='eza --tree -a'
 
