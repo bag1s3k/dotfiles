@@ -31,7 +31,7 @@
   p = push
   u = pull
   l = log --oneline --graph --all
-  d = diff --output-indicator-new=' ' --output-indicator-old=' '
+  d = diff
   b = branch
   ch = checkout
   m = merge
