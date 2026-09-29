@@ -29,3 +29,5 @@ set -gx TIME_STYLE "+%Y-%m-%d"
 
 starship init fish | source
 zoxide init --cmd cd fish | source
+
+set -gx PERL5LIB "$HOME/perl5/lib/perl5"
