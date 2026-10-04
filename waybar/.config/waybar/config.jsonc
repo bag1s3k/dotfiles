@@ -25,7 +25,8 @@
         "modules": [
             "custom/asus-profile",
             "bluetooth",
-            "network"
+            "network",
+            "custom/vpn"
         ]
     },
     "hyprland/workspaces": {
@@ -163,5 +164,11 @@
         "interval": 5,
         "format": "{}",
         "tooltip": false
+    },
+    "custom/vpn": {
+        "exec": "$HOME/.config/waybar/scripts/vpn.sh",
+        "interval": 60,
+        "format": "{}",
+        "tooltil": false
     }
 }
