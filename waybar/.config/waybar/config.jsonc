@@ -1,167 +1,167 @@
 {
-  "layer": "top",
-  "margin-left": 3,
-  "margin-top": 10,
-  "margin-right": 3,
-  "margin-bottom": 5,
-  "modules-left": [
-    "hyprland/workspaces",
-    "tray",
-    "wlr/taskbar"
-  ],
-  "modules-center": [
-    "clock"
-  ],
-  "modules-right": [
-    "group/single-icons",
-    "backlight",
-    "hyprland/submap",
-    "group/volume",
-    "battery",
-    "cpu"
-  ],
-  "group/single-icons": {
-    "orientation": "horizontal",
-    "modules": [
-      "custom/asus-profile",
-      "bluetooth",
-      "network"
-    ]
-  },
-  "hyprland/workspaces": {
-    "format": "{icon}",
-    "format-icons": {
-      "empty": ""
-    },
-    "persistent-workspaces": {
-      "*": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ]
-    }
-  },
-  "tray": {
-    "spacing": 10
-  },
-  "battery": {
-    "interval": 60,
-    "format": "{icon}  {capacity}%",
-    "format-icons": {
-      "default": [
-        "󰂎",
-        "󰁺",
-        "󰁻",
-        "󰁼",
-        "󰁽",
-        "󰁾",
-        "󰁿",
-        "󰂀",
-        "󰂁",
-        "󰂂",
-        "󰁹"
-      ],
-      "charging": [
-        "󰢟",
-        "󰢜",
-        "󰂆",
-        "󰂇",
-        "󰂈",
-        "󰢝",
-        "󰂉",
-        "󰢞",
-        "󰂊",
-        "󰂋",
-        "󰂅"
-      ]
-    }
-  },
-  "bluetooth": {
-    "format": "",
-    "format-disabled": "󰂲", // an empty format will hide the module
-    "format-connected": "󰂱",
-    "tooltip-format": "No devices",
-    "tooltip-format-connected": "{device_enumerate}",
-    "tooltip-format-enumerate-connected": "{device_alias} {device_battery_percentage}%"
-  },
-  "cpu": {
-    "interval": 3,
-    "min-length": 8,
-    "format": " {}%"
-  },
-  "network": {
-    "interval": 5,
-    "format": "",
-    "format-wifi": " {essid}",
-    "format-ethernet": "󱘖",
-    "format-disconnected": "󰤭", //An empty format will hide the module.
-    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
-    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-    "tooltip-format-ethernet": "{ifname}  {ipaddr}/{cidr}  ",
-    "tooltip-format-disconnected": "󰖪",
-    "max-length": 50
-  },
-  "clock": {
-    "interval": 60,
-    "format": "{:%d.%m.  <span color='#545454'>•</span>  %H:%M}",
-    "tooltip-format": "<tt><small>{calendar}</small></tt>",
-    "calendar": {
-      "format": {
-        "today": "<span color='#D7A466'><b>{}</b></span>"
-      },
-      "iso8601": true
-    }
-  },
-  "pulseaudio": {
-    "format": "{icon}",
-    "format-muted": "󰝟",
-    "format-icons": {
-      "default": [
-        "",
-        ""
-      ]
-    },
-    "scroll-step": 1,
-    "ignored-sinks": [
-      "Easy Effects Sink"
+    "layer": "top",
+    "margin-left": 3,
+    "margin-top": 10,
+    "margin-right": 3,
+    "margin-bottom": 5,
+    "modules-left": [
+        "hyprland/workspaces",
+        "tray",
+        "wlr/taskbar"
     ],
-    "on-click": "pavucontrol"
-  },
-  "pulseaudio/slider": {
-    "min": 0,
-    "max": 100,
-    "orientation": "horizontal"
-  },
-  "group/volume": {
-    "orientation": "horizontal",
-    "modules": [
-      "pulseaudio",
-      "pulseaudio/slider"
-    ]
-  },
-  "wlr/taskbar": {
-    "format": " {icon} ",
-    "icon-size": 20,
-    "tooltip-format": "{title}",
-    "on-click": "activate",
-    "on-click-right": "close"
-  },
-  "backlight": {
-    "device": "intel_backlight",
-    "format": "󰛨 {percent}%",
-    "tooltip": false
-  },
-  "custom/asus-profile": {
-    "exec": "asusctl profile get | awk '/Active profile/ {print $3}' | sed 's/Quiet/󰌪/; s/Balanced/󰾆/; s/Performance/󰓅/'",
-    "interval": 5,
-    "format": "{}",
-    "tooltip": false
-  }
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "group/single-icons",
+        "backlight",
+        "hyprland/submap",
+        "group/volume",
+        "battery",
+        "cpu"
+    ],
+    "group/single-icons": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/asus-profile",
+            "bluetooth",
+            "network"
+        ]
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "empty": ""
+        },
+        "persistent-workspaces": {
+            "*": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ]
+        }
+    },
+    "tray": {
+        "spacing": 10
+    },
+    "battery": {
+        "interval": 60,
+        "format": "{icon}  {capacity}%",
+        "format-icons": {
+            "default": [
+                "󰂎",
+                "󰁺",
+                "󰁻",
+                "󰁼",
+                "󰁽",
+                "󰁾",
+                "󰁿",
+                "󰂀",
+                "󰂁",
+                "󰂂",
+                "󰁹"
+            ],
+            "charging": [
+                "󰢟",
+                "󰢜",
+                "󰂆",
+                "󰂇",
+                "󰂈",
+                "󰢝",
+                "󰂉",
+                "󰢞",
+                "󰂊",
+                "󰂋",
+                "󰂅"
+            ]
+        }
+    },
+    "bluetooth": {
+        "format": "",
+        "format-disabled": "󰂲", // an empty format will hide the module
+        "format-connected": "󰂱",
+        "tooltip-format": "No devices",
+        "tooltip-format-connected": "{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias} {device_battery_percentage}%"
+    },
+    "cpu": {
+        "interval": 3,
+        "min-length": 8,
+        "format": " {}%"
+    },
+    "network": {
+        "interval": 5,
+        "format": "",
+        "format-wifi": " {essid}",
+        "format-ethernet": "󱘖",
+        "format-disconnected": "󰤭", //An empty format will hide the module.
+        "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+        "tooltip-format-ethernet": "{ifname}  {ipaddr}/{cidr}  ",
+        "tooltip-format-disconnected": "󰖪",
+        "max-length": 50
+    },
+    "clock": {
+        "interval": 60,
+        "format": "{:%d.%m.  <span color='#545454'>•</span>  %H:%M}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "format": {
+                "today": "<span color='#D7A466'><b>{}</b></span>"
+            },
+            "iso8601": true
+        }
+    },
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-muted": "󰝟",
+        "format-icons": {
+            "default": [
+                "",
+                ""
+            ]
+        },
+        "scroll-step": 1,
+        "ignored-sinks": [
+            "Easy Effects Sink"
+        ],
+        "on-click": "pavucontrol"
+    },
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal"
+    },
+    "group/volume": {
+        "orientation": "horizontal",
+        "modules": [
+            "pulseaudio",
+            "pulseaudio/slider"
+        ]
+    },
+    "wlr/taskbar": {
+        "format": " {icon} ",
+        "icon-size": 20,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-right": "close"
+    },
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "󰛨 {percent}%",
+        "tooltip": false
+    },
+    "custom/asus-profile": {
+        "exec": "asusctl profile get | awk '/Active profile/ {print $3}' | sed 's/Quiet/󰌪/; s/Balanced/󰾆/; s/Performance/󰓅/'",
+        "interval": 5,
+        "format": "{}",
+        "tooltip": false
+    }
 }
