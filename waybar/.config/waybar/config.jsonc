@@ -161,7 +161,7 @@
     },
     "custom/asus-profile": {
         "exec": "asusctl profile get | awk '/Active profile/ {print $3}' | sed 's/Quiet/󰌪/; s/Balanced/󰾆/; s/Performance/󰓅/'",
-        "interval": 5,
+        "interval": 15,
         "format": "{}",
         "tooltip": false
     },
