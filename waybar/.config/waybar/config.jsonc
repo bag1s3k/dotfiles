@@ -160,7 +160,7 @@
         "tooltip": false
     },
     "custom/asus-profile": {
-        "exec": "asusctl profile get | awk '/Active profile/ {print $3}' | sed 's/Quiet/󰌪/; s/Balanced/󰾆/; s/Performance/󰓅/'",
+        "exec": "$HOME/.config/waybar/scripts/asus-profile.sh",
         "interval": 15,
         "format": "{}",
         "tooltip": false
