@@ -27,5 +27,3 @@ end
 
 starship init fish | source
 zoxide init --cmd cd fish | source
-
-set -gx PERL5LIB "$HOME/perl5/lib/perl5"
