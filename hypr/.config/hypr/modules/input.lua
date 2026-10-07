@@ -35,3 +35,9 @@ hl.device({
 	natural_scroll = true,
 	scroll_factor = 0.15,
 })
+
+hl.device({
+	name = "logitech-pro-x-1",
+	sensitivity = -0.5,
+	scroll_factor = 1,
+})
