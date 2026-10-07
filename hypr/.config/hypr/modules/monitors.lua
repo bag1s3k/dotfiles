@@ -83,6 +83,12 @@ hl.workspace_rule({
 })
 
 hl.workspace_rule({
+	workspace = 2,
+	monitor = "desc:BNQ G2420HDBL 84A06596SL000",
+	default = true,
+})
+
+hl.workspace_rule({
 	workspace = 3,
 	monitor = "desc:Dell Inc. DELL S2721DS 5P92VY3",
 	default = true,
