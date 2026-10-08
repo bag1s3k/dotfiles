@@ -57,16 +57,6 @@ hl.layer_rule({
 hl.window_rule({
 	name = "float-nwg-look",
 	match = { class = "^(nwg-look)$" },
-
-	float = true,
-	center = true,
-	size = { 800, 600 },
-})
-
-hl.window_rule({
-	name = "float-nautilus",
-	match = { class = "^(org.gnome.Nautilus)$" },
-
 	float = true,
 	center = true,
 	size = { 1200, 800 },
