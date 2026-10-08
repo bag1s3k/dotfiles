@@ -55,15 +55,6 @@ hl.layer_rule({
 })
 
 hl.window_rule({
-	name = "float-overskride",
-	match = { class = "^(io.github.kaii_lb.Overskride)$" },
-
-	float = true,
-	center = true,
-	size = { 800, 600 },
-})
-
-hl.window_rule({
 	name = "float-nwg-look",
 	match = { class = "^(nwg-look)$" },
 
@@ -91,9 +82,7 @@ hl.window_rule({
 })
 
 hl.window_rule({
-	name = "float-pavucontrol",
-	match = { class = "^(org.pulseaudio.pavucontrol)$" },
-
+	match = { class = "clipse" },
 	float = true,
 	center = true,
 	size = { 800, 600 },
