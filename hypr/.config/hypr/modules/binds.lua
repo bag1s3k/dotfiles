@@ -4,7 +4,7 @@
 
 -- Set programs that you use
 local terminal = "kitty"
-local fileManager = "nautilus"
+local fileManager = terminal .. " --class yazi -e yazi"
 local menu = "rofi -show drun"
 
 ---------------------
