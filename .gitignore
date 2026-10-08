@@ -36,3 +36,5 @@ clipse/.config/clipse/*
 xdg-desktop-portal/.config/xdg-desktop-portal/gnome-portals.conf
 
 yazi/.config/yazi/flavors/
+yazi/.config/yazi/plugins/*
+!yazi/.config/yazi/plugins/folder-rules.yazi/
