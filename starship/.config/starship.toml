@@ -99,6 +99,12 @@ symbol = ""
 style = "fg:#89b4fa"
 format = '[$symbol $context ]($style)'
 
+
+[perl]
+symbol = ""
+style = "fg:#89b4fa"
+format = '[$symbol $version ]($style)'
+
 [conda]
 symbol = ""
 style = "fg:#94e2d5"
