@@ -64,8 +64,7 @@ hl.window_rule({
 
 hl.window_rule({
 	name = "float-discord",
-	match = { class = "^(com.discordapp.Discord)$" },
-
+	match = { class = "discord" },
 	float = true,
 	center = true,
 	size = { 1200, 800 },
