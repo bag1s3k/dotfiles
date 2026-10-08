@@ -67,7 +67,7 @@ hl.window_rule({
 	match = { class = "discord" },
 	float = true,
 	center = true,
-	size = { 1200, 800 },
+	size = { 1400, 900 },
 })
 
 hl.window_rule({
@@ -81,5 +81,5 @@ hl.window_rule({
 	match = { class = "yazi" },
 	float = true,
 	center = true,
-	size = { 800, 600 },
+	size = { 1800, 1000 },
 })
