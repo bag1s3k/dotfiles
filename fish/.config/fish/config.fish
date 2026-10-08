@@ -36,3 +36,5 @@ function y
     end
     command rm -f -- "$tmp"
 end
+
+set -gx EDITOR nvim
