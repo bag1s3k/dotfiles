@@ -59,7 +59,7 @@ hl.window_rule({
 	match = { class = "^(nwg-look)$" },
 	float = true,
 	center = true,
-	size = { 1200, 800 },
+	size = { "monitor_w * 0.5", "monitor_h * 0.5" },
 })
 
 hl.window_rule({
@@ -67,21 +67,21 @@ hl.window_rule({
 	match = { class = "discord" },
 	float = true,
 	center = true,
-	size = { 1400, 900 },
+	size = { "monitor_w * 0.6", "monitor_h * 0.7" },
 })
 
 hl.window_rule({
 	match = { class = "clipse" },
 	float = true,
 	center = true,
-	size = { 800, 600 },
+	size = { "monitor_w * 0.3", "monitor_h * 0.4" },
 })
 
 hl.window_rule({
 	match = { class = "yazi" },
 	float = true,
 	center = true,
-	size = { 1800, 1000 },
+	size = { "monitor_w * 0.7", "monitor_h * 0.7" },
 })
 
 hl.on("window.open", function(w)
