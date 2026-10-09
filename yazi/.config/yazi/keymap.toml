@@ -3,6 +3,11 @@
 
 #:schema https://yazi-rs.github.io/schemas/keymap.json
 
+[[input.prepend_keymap]]
+on = "<Esc>"
+run = "close"
+desc = "Cancel input"
+
 [[mgr.prepend_keymap]]
 on = "l"
 run = "plugin smart-enter"
