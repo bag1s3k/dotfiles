@@ -11,30 +11,7 @@
 **/.venv/
 **/__pycache__/
 
-vim/.vim/*
-!vim/.vim/autoload/
-
-fish/.config/fish/*
-!fish/.config/fish/config.fish
-
-gtk-3.0/.config/gtk-3.0/bookmarks
-gtk-4.0/.config/gtk-4.0/*
-!gtk-4.0/.config/gtk-4.0/settings.ini
-
-nvim/.config/nvim/.gitignore
-nvim/.config/nvim/lua/plugins/example.lua
-
 !/README.md
 !/LICENSE
 
 .aider*
-
-clipse/.config/clipse/*
-!/clipse/.config/clipse/config.json
-!/clipse/.config/clipse/custom_theme.json
-
-xdg-desktop-portal/.config/xdg-desktop-portal/gnome-portals.conf
-
-yazi/.config/yazi/flavors/
-yazi/.config/yazi/plugins/*
-!yazi/.config/yazi/plugins/folder-rules.yazi/

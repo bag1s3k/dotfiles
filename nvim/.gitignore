@@ -1,0 +1,2 @@
+.config/nvim/.gitignore
+.config/nvim/lua/plugins/example.lua

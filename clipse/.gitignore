@@ -1,0 +1,3 @@
+.config/clipse/*
+!.config/clipse/config.json
+!.config/clipse/custom_theme.json
