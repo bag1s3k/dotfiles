@@ -11,23 +11,23 @@
     "keyBindings": {
         "choose": "enter",
         "clearSelected": "S",
-        "down": "down",
+        "down": "down,j",
         "end": "end",
         "filter": "/",
         "forceQuit": "Q",
         "home": "home",
         "more": "?",
-        "nextPage": "right",
-        "prevPage": "left",
+        "nextPage": "right,l",
+        "prevPage": "left,h",
         "preview": "space",
         "quit": "esc",
-        "remove": "backspace",
+        "remove": "backspace,d",
         "selectDown": "shift+down",
         "selectSingle": "s",
         "selectUp": "shift+up",
         "togglePin": "p",
         "togglePinned": "tab",
-        "up": "up",
+        "up": "up,k",
         "yankFilter": "ctrl+s"
     },
     "imageDisplay": {
@@ -51,5 +51,5 @@
         "buffer": 10
     },
     "enableMouse": true,
-    "enableDescription": false
+    "enableDescription": true
 }
