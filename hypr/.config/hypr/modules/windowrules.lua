@@ -74,7 +74,7 @@ hl.window_rule({
 	match = { class = "clipse" },
 	float = true,
 	center = true,
-	size = { "monitor_w * 0.3", "monitor_h * 0.4" },
+	size = { 800, 600 },
 })
 
 hl.window_rule({
