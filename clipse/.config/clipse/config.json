@@ -31,10 +31,10 @@
         "yankFilter": "ctrl+s"
     },
     "imageDisplay": {
-        "type": "basic",
-        "scaleX": 9,
-        "scaleY": 9,
-        "heightCut": 2
+        "type": "kitty",
+        "scaleX": 18,
+        "scaleY": 18,
+        "heightCut": 15
     },
     "excludedApps": [
         "1Password",
