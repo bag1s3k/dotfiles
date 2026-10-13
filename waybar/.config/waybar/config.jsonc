@@ -100,12 +100,12 @@
     "network": {
         "interval": 5,
         "format": "",
-        "format-wifi": " {essid}",
+        "format-wifi": " ",
         "format-ethernet": "󱘖",
         "format-disconnected": "󰤭", //An empty format will hide the module.
-        "tooltip-format": "{ifname} via {gwaddr} 󰊗",
-        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-        "tooltip-format-ethernet": "{ifname}  {ipaddr}/{cidr}  ",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{ifname}  {ipaddr}/{cidr}",
         "tooltip-format-disconnected": "󰖪",
         "max-length": 50
     },
