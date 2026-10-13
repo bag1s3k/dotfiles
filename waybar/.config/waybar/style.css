@@ -91,6 +91,10 @@ window#waybar {
   margin: 0 10px;
 }
 
+#custom-vpn {
+    margin-left: 10px;
+}
+
 #submap {
   background: @red;
   border-color: @red;

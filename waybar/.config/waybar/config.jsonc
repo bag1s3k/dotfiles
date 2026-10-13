@@ -168,7 +168,8 @@
     "custom/vpn": {
         "exec": "$HOME/.config/waybar/scripts/vpn.sh",
         "interval": 60,
-        "format": "{}",
-        "tooltil": false
+        "format": "{text}",
+        "tooltip": true,
+        "return-type": "json"
     }
 }

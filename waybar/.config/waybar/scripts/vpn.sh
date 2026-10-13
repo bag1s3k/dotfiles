@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
-if [ "$(wg show interfaces)" ]; then
-    echo "  "
+interfaces=$(wg show interfaces)
+
+if [ "$interfaces" ]; then
+    printf '{ "text": "", "tooltip": "%s" }' "$interfaces"
 fi
