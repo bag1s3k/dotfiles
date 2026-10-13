@@ -84,6 +84,14 @@ hl.window_rule({
 	size = { "monitor_w * 0.7", "monitor_h * 0.7" },
 })
 
+hl.window_rule({
+	name = "signal",
+	match = { class = "org.signal.Signal" },
+	float = true,
+	center = true,
+	size = { "monitor_w * 0.6", "monitor_h * 0.7" },
+})
+
 hl.on("window.open", function(w)
 	if w.class ~= "org.mozilla.firefox" then
 		return
