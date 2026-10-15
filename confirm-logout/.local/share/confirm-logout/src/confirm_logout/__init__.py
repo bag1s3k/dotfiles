@@ -3,6 +3,30 @@ from textual.binding import Binding
 from textual.widgets import Button, Label
 from textual.containers import Container
 import subprocess
+from enum import Enum
+
+class Theme(str, Enum):
+    ANSI_DARK = "ansi-dark"
+    ANSI_LIGHT = "ansi-light"
+    ATOM_ONE_DARK = "atom-one-dark"
+    ATOM_ONE_LIGHT = "atom-one-light"
+    CATPPUCCIN_FRAPPE = "catppuccin-frappe"
+    CATPPUCCIN_LATTE = "catppuccin-latte"
+    CATPPUCCIN_MACCHIATO = "catppuccin-macchiato"
+    CATPPUCCIN_MOCHA = "catppuccin-mocha"
+    DRACULA = "dracula"
+    FLEXOKI = "flexoki"
+    GRUVBOX = "gruvbox"
+    MONOKAI = "monokai"
+    NORD = "nord"
+    ROSE_PINE = "rose-pine"
+    ROSE_PINE_DAWN = "rose-pine-dawn"
+    ROSE_PINE_MOON = "rose-pine-moon"
+    SOLARIZED_DARK = "solarized-dark"
+    SOLARIZED_LIGHT = "solarized-light"
+    TEXTUAL_DARK = "textual-dark"
+    TEXTUAL_LIGHT = "textual-light"
+    TOKYO_NIGHT = "tokyo-night"
 
 
 class ConfirmLogout(App[None]):
