@@ -2,6 +2,7 @@ from textual.app import App, ComposeResult
 from textual.binding import Binding
 from textual.widgets import Button, Label
 from textual.containers import Container
+import subprocess
 
 
 class ConfirmLogout(App[None]):
@@ -46,9 +47,15 @@ class ConfirmLogout(App[None]):
             self.action_press_btn(False)
 
     def action_press_btn(self, press_btn: bool) -> None:
-        """Print the confirmation choice as 1 for Yes or 0 for No."""
+        """Launch the logout command on confirmation, or close the menu on cancellation."""
         if press_btn:
-            print(1)  # TODO: placeholder for an actual logout command
+            subprocess.Popen(
+                [
+                    "sh",
+                    "-c",
+                    "...",  # TODO: placeholder fo the command to execute
+                ]
+            )
         else:
             self.exit()
 
