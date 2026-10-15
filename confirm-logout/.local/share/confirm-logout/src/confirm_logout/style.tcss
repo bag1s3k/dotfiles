@@ -1,0 +1,32 @@
+Screen {
+    align: center middle;
+}
+Container {
+    height: auto;
+    width: auto;
+}
+
+Horizontal {
+    height: auto;
+    width: auto;
+}
+
+Label {
+    outline: ascii $primary;
+    width: 100%;
+    height: 3;
+    content-align: center middle;
+}
+
+Button {
+    background: transparent;
+}
+
+#yes-btn {
+    outline: ascii $warning;
+}
+
+#no-btn {
+    outline: ascii $error;
+    color: $error;
+}
