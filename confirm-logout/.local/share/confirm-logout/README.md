@@ -5,7 +5,25 @@ you log out. The **Yes** and **No** buttons help you avoid logging out by mistak
 
 ## Installation
 
-You need Python **3.13 or newer**, `uv`, and a terminal.
+### Install a release
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/bag1s3k/dotfiles/main/confirm-logout/.local/share/confirm-logout/install.sh | sh
+```
+
+You can also choose a version. e.g. `confirm-logout-v2026.0.0`
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/bag1s3k/dotfiles/main/confirm-logout/.local/share/confirm-logout/install.sh | sh -s -- confirm-logout-v2026.0.0
+```
+
+The installer installs the app to
+`~/.local/bin/confirm-logout`. It keeps your config file.
+Add `~/.local/bin` to your `PATH` and create the config file shown below.
+
+### Run from source
+
+For this option, you need Python **3.13 or newer**, `uv`, and a terminal.
 
 Open the project folder in your dotfiles and install the Python packages:
 
@@ -92,7 +110,7 @@ Run the app from the project folder:
 uv run confirm-logout
 ```
 
-If you built and installed the executable, run:
+If you used the installer or built and installed the executable, run:
 
 ```sh
 confirm-logout
