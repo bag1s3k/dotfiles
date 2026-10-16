@@ -1,0 +1,4 @@
+[general]
+default_cancel = true
+cmd = "command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"
+vim_keys = true
