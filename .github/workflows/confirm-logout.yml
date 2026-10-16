@@ -1,0 +1,35 @@
+name: Build confirm-logout
+
+on:
+  push:
+    tags:
+      - "confirm-logout-v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build and Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Setup Just
+        uses: extractions/setup-just@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v10.3.0
+
+      - name: Build
+        working-directory: confirm-logout/.local/share/confirm-logout
+        run: just build
+
+      - name: Release
+        uses: softprops/action-gh-release@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: confirm-logout/.local/share/confirm-logout/dist/confirm-logout
+          make_latest: "false"
