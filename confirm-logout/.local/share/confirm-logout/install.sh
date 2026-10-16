@@ -46,3 +46,5 @@ install -Dm755 \
     printf 'Failed to install confirm-logout to %s.\n' "$HOME/.local/bin/confirm-logout" >&2
     exit 1
 }
+
+printf 'Successfully installed!\n'
