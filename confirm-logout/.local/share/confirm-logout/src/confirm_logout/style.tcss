@@ -1,0 +1,44 @@
+Screen {
+    align: center middle;
+}
+Container {
+    height: auto;
+    width: 27;
+    layout: grid;
+    grid-size: 2 2;
+    grid-rows: 3 3;
+}
+
+Label {
+    text-wrap: wrap;
+    border: round $primary;
+    column-span: 2;
+    width: 100%;
+    height: auto;
+    content-align: center middle;
+}
+
+Button {
+    background: transparent;
+    height: auto;
+    width: 100%;
+}
+
+#yes-btn {
+    outline: round $success;
+    color: $success;
+}
+
+#no-btn {
+    outline: round $error;
+    color: $error;
+}
+
+#error_msg {
+    color: $error;
+    text-style: bold;
+}
+
+ShowError > Label {
+    width: auto;
+}
