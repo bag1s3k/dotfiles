@@ -10,10 +10,11 @@ Container {
 }
 
 Label {
+    text-wrap: wrap;
     border: round $primary;
     column-span: 2;
     width: 100%;
-    height: 3;
+    height: auto;
     content-align: center middle;
 }
 
@@ -31,4 +32,13 @@ Button {
 #no-btn {
     outline: round $error;
     color: $error;
+}
+
+#error_msg {
+    color: $error;
+    text-style: bold;
+}
+
+ShowError > Label {
+    width: auto;
 }
