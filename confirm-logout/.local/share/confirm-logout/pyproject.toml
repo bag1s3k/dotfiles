@@ -1,6 +1,6 @@
 [project]
 name = "confirm-logout"
-version = "0.0.0"
+version = "2026.0.0"
 description = "A simple TUI to confirm before logging out"
 readme = "README.md"
 authors = [
