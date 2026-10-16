@@ -33,3 +33,6 @@ jobs:
         with:
           files: confirm-logout/.local/share/confirm-logout/dist/confirm-logout
           make_latest: "false"
+          body: |
+            > [!NOTE]
+            > See the [README](https://github.com/bag1s3k/dotfiles/blob/${{ github.ref_name }}/confirm-logout/.local/share/confirm-logout/README.md) for installation, configuration, and usage.
