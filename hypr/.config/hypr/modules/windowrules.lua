@@ -85,6 +85,13 @@ hl.window_rule({
 })
 
 hl.window_rule({
+	match = { class = "confirm-logout" },
+	float = true,
+	center = true,
+	size = { 311, 190 },
+})
+
+hl.window_rule({
 	name = "signal",
 	match = { class = "org.signal.Signal" },
 	float = true,
