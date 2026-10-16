@@ -29,3 +29,10 @@ check +args=".":
 
 format +args=".":
     uv run ruff format {{args}}
+
+build:
+    uv run pyinstaller \
+        --onefile \
+        --name {{package_name}} \
+        --add-data "src/confirm_logout/style.tcss:confirm_logout" \
+        src/confirm_logout/__main__.py
