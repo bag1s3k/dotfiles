@@ -18,6 +18,7 @@ hl.monitor({
 	mode = "2560x1600@60.001999",
 	position = "auto",
 	scale = 1.25,
+	icc = "/home/bag1s3k/Downloads/BOE0CA4.icm",
 })
 
 hl.monitor({
