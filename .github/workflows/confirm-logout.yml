@@ -26,12 +26,18 @@ jobs:
         working-directory: confirm-logout/.local/share/confirm-logout
         run: just build
 
+      - name: Create checksum
+        working-directory: confirm-logout/.local/share/confirm-logout/dist
+        run: sha256sum confirm-logout > SHA256SUMS
+
       - name: Release
         uses: softprops/action-gh-release@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          files: confirm-logout/.local/share/confirm-logout/dist/confirm-logout
+          files: |
+            confirm-logout/.local/share/confirm-logout/dist/confirm-logout
+            confirm-logout/.local/share/confirm-logout/dist/SHA256SUMS
           make_latest: "false"
           body: |
             > [!NOTE]
