@@ -3,3 +3,13 @@
 -- Add any additional keymaps here
 vim.keymap.set("i", "jj", "<Esc>")
 vim.keymap.set("t", "<Esc><Esc>", [[<C-\><C-n>]])
+
+local wk = require("which-key")
+
+wk.add({
+  {
+    "<leader>a",
+    group = "Apps",
+    icon = { icon = "󰀻", color = "yellow" },
+  },
+})

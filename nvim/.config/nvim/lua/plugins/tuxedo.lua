@@ -2,7 +2,7 @@ return {
   "IogaMaster/tuxedo.nvim",
   cmd = "Tuxedo",
   keys = {
-    { "<leader>xt", "<cmd>Tuxedo<cr>", desc = "Open Tuxedo" },
+    { "<leader>at", "<cmd>Tuxedo<cr>", desc = "Open Tuxedo" },
   },
   opts = {
     create_todo_file = true,
