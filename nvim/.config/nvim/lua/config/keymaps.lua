@@ -8,6 +8,10 @@ local wk = require("which-key")
 
 wk.add({
   {
+    "<leader>K",
+    icon = { icon = "󰋖", color = "blue" },
+  },
+  {
     "<leader>a",
     group = "Apps",
     icon = { icon = "󰀻", color = "yellow" },
