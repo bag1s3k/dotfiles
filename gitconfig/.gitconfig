@@ -1,7 +1,7 @@
 [user]
 	name = bag1s3k
 	email = 174890936+bag1s3k@users.noreply.github.com
-	signingkey = /home/bag1s3k/.ssh/id_ed25519.pub
+	signingkey = /home/bag1s3k/.ssh/id_ed25519_github.pub
 [submodule]
 	recurse = true
 [push]
