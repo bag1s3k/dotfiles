@@ -10,5 +10,10 @@ return {
         },
       },
     },
+    styles = {
+      terminal = {
+        height = 0.25,
+      },
+    },
   },
 }
