@@ -53,7 +53,10 @@
         "type": "file",
         "source": "~/.config/fastfetch/logo.txt",
         "color": {
-            "1": "#585B70"
+            "1": "#CDD6F4",
+            "2": "#F9E2AF",
+            "3": "#FAB387",
+            "4": "#585B70"
         },
         "padding": {
             "top": 0,
