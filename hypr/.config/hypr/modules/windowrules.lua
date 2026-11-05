@@ -99,6 +99,14 @@ hl.window_rule({
 	size = { "monitor_w * 0.7", "monitor_h * 0.75" },
 })
 
+hl.window_rule({
+	name = "signal",
+	match = { class = "org.openlogi.openlogi" },
+	float = true,
+	center = true,
+	size = { "monitor_w * 0.7", "monitor_h * 0.75" },
+})
+
 hl.on("window.open", function(w)
 	if w.class ~= "org.mozilla.firefox" then
 		return
