@@ -139,8 +139,5 @@ hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
 
--- Super+Tab (workspace-filtered)
-hl.bind("ALT + Tab", hl.dsp.exec_cmd("snappy-switcher next --workspace --mod alt"))
-
--- Alt+Tab (standard MRU)
-hl.bind("SUPER + TAB", hl.dsp.exec_cmd("snappy-switcher next --mod super"))
+-- Alt+Tab
+hl.bind("ALT + Tab", hl.dsp.focus({ last = true }))

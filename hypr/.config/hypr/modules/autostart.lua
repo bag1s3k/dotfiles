@@ -19,7 +19,6 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("hypridle")
 	hl.exec_cmd("hyprsunset")
 	hl.exec_cmd("clipse -listen")
-	hl.exec_cmd("snappy-switcher --daemon")
 
 	hl.dispatch(hl.dsp.focus({ workspace = 1 }))
 end)
