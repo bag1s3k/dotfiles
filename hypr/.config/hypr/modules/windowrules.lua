@@ -92,7 +92,6 @@ hl.window_rule({
 })
 
 hl.window_rule({
-	name = "signal",
 	match = { class = "org.signal.Signal" },
 	float = true,
 	center = true,
@@ -100,7 +99,6 @@ hl.window_rule({
 })
 
 hl.window_rule({
-	name = "signal",
 	match = { class = "org.openlogi.openlogi" },
 	float = true,
 	center = true,
@@ -108,7 +106,6 @@ hl.window_rule({
 })
 
 hl.window_rule({
-	name = "signal",
 	match = { class = "org.localsend.localsend_app" },
 	float = true,
 	center = true,
