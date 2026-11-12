@@ -8,7 +8,7 @@
 	recurseSubmodules = on-demand
 [core]
 	preloadindex = true
-	autocrlf = input
+	autocrlf = false
     editor = vim
 	fsmonitor = true
 [url "git@github.com:bag1s3k/"]
